@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JBake</title>
+    <link>https://ethiknet.github.io/ethiknet</link>
+    <atom:link href="https://ethiknet.github.io/ethiknet/feed.xml" rel="self" type="application/rss+xml" />
+    <description>Agence Web : EthikNet</description>
+    <language>fr_FR</language>
+    <pubDate>jeu., 4 déc. 2025 22:03:40 +0100</pubDate>
+    <lastBuildDate>jeu., 4 déc. 2025 22:03:40 +0100</lastBuildDate>
+
+
+  </channel> 
+</rss>
