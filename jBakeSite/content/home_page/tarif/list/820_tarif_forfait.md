@@ -10,7 +10,8 @@ order=820
 ~~~~~~
 **1 000€**
 HT - Paiement en 2 fois
-*Parfait pour artisans et petites associations*
+Sans frais : 50% à la commande 50% à la livraison
+*Parfait pour artisans/commerçants et petites associations*
 
 - Site web complet (≈25h de développement)
 - Design personnalisé

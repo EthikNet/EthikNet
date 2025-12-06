@@ -7,6 +7,6 @@ includeContent={"type":"org_openCiLife_block", "category":"lp_ethiknet_pourquoi"
 specificClass=lp_block_pourquoi_ethiknet
 anchorId=pourquoi_ethiknet
 status=published
-order=827
+order=824
 ~~~~~~
 Un site web qui vous ressemble, créé avec soin et expertise

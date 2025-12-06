@@ -7,6 +7,7 @@ status=published
 specificClass=lp_offre_lancement primary
 order=830
 ~~~~~~
-**40€/h au lieu de 60€/h** pour les 10 premiers clients
+**40€/h au lieu de 60€/h** pour les 10 premiers clients.
+Soit **1 000€** au lieu de **1 500€** pour un site complet.
 
-Ne ratez pas cette opportunité d'avoir un site web professionnel à prix réduit 
+Ne ratez pas cette opportunité d'avoir un site web professionnel à prix réduit.

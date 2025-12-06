@@ -78,6 +78,9 @@
 .lpEthikNet .accroche {
 	margin-bottom: 30px;
 }
+.lpEthikNet .accroche .blockContent h1 strong {
+	display:block;
+}
 
 .lpEthikNet .accroche .card {
 	border: none;

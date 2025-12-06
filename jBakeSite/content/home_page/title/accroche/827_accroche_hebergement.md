@@ -6,5 +6,5 @@ tags=
 status=published
 order=827
 ~~~~~~
-## 4€/mois
+## 4€ *HT*/mois
 Hébergement léger

@@ -16,4 +16,4 @@ order=822
 ~~~~~~
 # Votre site web éco-conçu, **rapide et abordable**
 
-EthikNet crée des sites web performants et respectueux de l'environnement pour artisans et associations. Rapide, léger, efficace.
+EthikNet crée des sites web performants et respectueux de l'environnement pour artisans/commerçants et associations. Votre site rapide, léger, efficace.

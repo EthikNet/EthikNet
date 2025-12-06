@@ -6,5 +6,5 @@ tags=
 status=published
 order=825
 ~~~~~~
-## 1 000€
+## 1 000€ *HT*
 Site complet clé en main
