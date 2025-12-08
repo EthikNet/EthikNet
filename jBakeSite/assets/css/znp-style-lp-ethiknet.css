@@ -299,6 +299,13 @@
 	padding-top: 15px;
 }
 
+.lpEthikNet .whoAmI .blockContent p {
+	font-size:small;
+	text-align:left;
+}
+.lpEthikNet .whoAmI .blockIcon {
+	border-radius: 999999px;
+}
 
 .lpEthikNet .lp_offre_lancement{
 	border-radius: 20px;
