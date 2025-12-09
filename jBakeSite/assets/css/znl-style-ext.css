@@ -44,6 +44,9 @@
 #footer_blocks .block {
 	text-align:left;
 }
+#footer_blocks .blockBody {
+	flex-direction: row;
+}
 
 #footer_blocks .block .blockTitle {
 	font-size:150%;
