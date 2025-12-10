@@ -7,4 +7,4 @@ status=published
 order=827
 ~~~~~~
 ## 4€ *HT*/mois
-Hébergement léger
+Hébergement partagé

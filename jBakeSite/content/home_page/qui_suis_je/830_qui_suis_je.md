@@ -9,8 +9,8 @@ contentImage=images/photo_jeremie_d.jpg
 specificClass=whoAmI
 order=830
 ~~~~~~
-Je suis Jérémie DERUETTE, développeur d'applications depuis presque 20 ans. J'ai travailler pour des ESN, une agence Web, quelques entreprises en direct et j'ai animé des formations dans domaine du développement d'applications. 
+Je suis Jérémie DERUETTE, développeur d'applications depuis presque 20&nbsp;ans. J'ai travaillé pour des ESN et SSII, une agence Web, quelques entreprises en direct et j'ai animé des formations dans le domaine du développement d'applications. 
 
-Convaincu des problèmes du réchauffement climatique je cherche à contribuer à limiter ses impacts. Proposer un Web plus durable est un projet en gestation depuis plus de 5 ans. Ce projet à aussi pour objectif de faciliter l’accès au web aux plus petites structures.
+Proposer un Web plus durable est un projet en gestation depuis plus de 5&nbsp;ans. Ce projet à aussi pour objectif de faciliter l’accès au web aux petites structures.
 
-Je suis le créateur de WebLeger, EthikNet à pour objectif de rendre accessible WebLeger aux non développeurs.
+Je suis le créateur de WebLeger.

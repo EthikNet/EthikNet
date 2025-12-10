@@ -9,7 +9,7 @@ order=821
 ~~~~~~
 Hébergement éco-responsable à partir de 4€/mois. Serveurs optimisés, bande passante illimitée.
 
-- 99.9% uptime
-- SSL gratuit
+- 99.9% de disponibilité (uptime)
+- Https (SSL) inclut
 - Sauvegardes quotidiennes
 - Support technique

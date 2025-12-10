@@ -47,6 +47,9 @@
 #footer_blocks .blockBody {
 	flex-direction: row;
 }
+#footer_blocks .blockBody a {
+	line-height: 24px;
+}
 
 #footer_blocks .block .blockTitle {
 	font-size:150%;

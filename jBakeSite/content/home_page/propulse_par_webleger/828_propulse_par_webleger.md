@@ -9,4 +9,4 @@ status=published
 specificClass=ethiknet_propulse_webleger
 order=828
 ~~~~~~
-Notre framework open-source spécialisé dans l'éco-conception web. Code ouvert, communauté active, et performances exceptionnelles.
+Notre framework open-source spécialisé dans l'éco-conception web : code ouvert, communauté active, et performances exceptionnelles.
