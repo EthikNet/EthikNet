@@ -1,5 +1,5 @@
 <#function getComponnentInfo>
-	<#return {"componnentVersion":1, "name":"EcoWebMacro", "description":"EcoWeb Template", "recommandedNamespace":"ecoWeb", "uses":[{"value":"logHelper", "type":"lib"}, {"value":"displayDate", "type":"contentHeader"}, {"value":"displaySiteHeaderTitle", "type":"contentHeader"}]}>
+	<#return {"componnentVersion":1, "name":"EcoWebMacro", "description":"WebLeger Template", "recommandedNamespace":"ecoWeb", "uses":[{"value":"logHelper", "type":"lib"}, {"value":"displayDate", "type":"contentHeader"}, {"value":"displaySiteHeaderTitle", "type":"contentHeader"}]}>
 </#function>
 
 <#function init>
@@ -26,6 +26,18 @@
 	</#if>
 </#macro>
 
+<#function retrieveMetaDescription content>
+	<#local desc = propertiesHelper.retrieveAndDisplayConfigText("site.header.description")>
+	<#if (content.exerpt)??>
+		<#local desc = content.exerpt>
+	</#if>
+	<#return desc />
+</#function>
+
+<#function retrieveMetaKeyWord content>
+	<#local keywords = propertiesHelper.retrieveAndDisplayConfigText("site.header.keyword")>
+	<#return keywords />
+</#function>
 
 <#macro bob block>
 	A Basic BOB template !!!!

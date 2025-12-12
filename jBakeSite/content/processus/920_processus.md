@@ -9,6 +9,7 @@ specificClass=EthikNet
 contentImage=images/circular-arrow.svg
 displayDate=false
 menu={"parent":{"title":"Processus"}}
+exerpt=Le processus général du développement Web avec EthikNet
 order=920
 ~~~~~~
 

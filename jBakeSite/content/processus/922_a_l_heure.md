@@ -8,6 +8,7 @@ specificClass=EthikNet
 contentImage=images/euro.svg
 displayDate=false
 menu={"parent":{"title":"Processus"}}
+exerpt=Explications sur le tarif à l'heure
 order=922
 ~~~~~~
 
