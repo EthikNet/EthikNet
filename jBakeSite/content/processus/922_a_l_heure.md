@@ -13,7 +13,7 @@ order=922
 ~~~~~~
 
 ## Etapes
-### préliminaires
+### Préliminaires
 
 1. un échange de 15 minutes pour vérifier que votre besoin est compatible avec les services proposé par l'agence
 1. une proposition de pack d'heures adapté.
@@ -21,8 +21,9 @@ order=922
 ### Réalisation
 La réalisation débute après achat du pack d'heures.
 
-### validation
+### Validation
 Le processus de livraison dépends de vos besoins, mais en générale :
+
 1. livraison en tests des modifications
 1. vous validez votre site (et faite des remarques)
 1. prise en compte de vos remarques
