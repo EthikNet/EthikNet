@@ -1,5 +1,5 @@
 title=Conditions générales de vente
-date=2026-02-03
+date=2026-01-01
 type=org_openCiLife_post
 category=cgv
 status=published
