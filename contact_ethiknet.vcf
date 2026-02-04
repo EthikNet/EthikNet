@@ -1,0 +1,15 @@
+BEGIN:VCARD
+VERSION:3.0
+N:DERUETTE;Jérémie
+FN:Jérémie DERUETTE
+ORG:EthikNet
+TEL;TYPE=cell:(+33)666105872
+EMAIL:contact@ethiknet.fr
+URL:http://www.ethiknet.fr
+ROLE:Directeur et Développeur Web
+SOURCE:http://www.ethiknet.fr/ethiknet/contact_ethiknet.vcf
+KIND:organization
+LOGO;TYPE=SCG:http://www.ethiknet.fr/ethiknet/images/common/logo-small.svg
+PHOTO;TYPE=JPEG;VALUE=URI:http://www.ethiknet.fr/ethiknet/images/photo_jeremie_d.jpg
+NOTE:SMS de préférence, n'hésitez pas à laisser un message même bref.
+END:VCARD
