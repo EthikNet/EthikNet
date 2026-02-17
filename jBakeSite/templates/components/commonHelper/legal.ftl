@@ -7,7 +7,7 @@
 </#function>
 
 <#macro buildLegal theContent cssClass="legal">
-	<#if isEnableLegal() && (theContent.legalPage)?? && theContent.legalPage=="true">
+	<#if isEnableLegal() && isLegalContent(theContent)>
 		<div<#if (cssClass)??> class="${cssClass}</#if>">
 			<div class="legal_identity">
 				<h3>Identitée</h3>
@@ -27,6 +27,7 @@
 				<@displayPropsIfSet "site.legal.hosting.company.name"/>
 				<@displayPropsIfSet "site.legal.hosting.company.address"/>
 				<@displayPropsIfSet "site.legal.hosting.company.phone_number"/>
+				<@displayPropsIfSet "site.legal.hosting.company.email"/>
 			</div>
 			<div class="legal_specific">
 				<h3>Autres informations</h3>
@@ -58,16 +59,20 @@
 </#macro>
 
 <#function isEnableLegal>
-	<#local isLegalEnable = (propertiesHelper.retrieveAndDisplayConfigText("site.legal.enable"))?? 
-			&& propertiesHelper.retrieveAndDisplayConfigText("site.legal.enable")=="true">
+	<#local isLegalEnable = ((propertiesHelper.retrieveAndDisplayConfigText("site.legal.enable"))?? 
+			&& (propertiesHelper.retrieveAndDisplayConfigText("site.legal.enable")=="true"))>
 	<#if logHelper??>
-		${logHelper.stackDebugMessage("legal.isEnableLegal : global enable value : " + isLegalEnable?string("true", "no"))}
+		${logHelper.stackDebugMessage("legal.isEnableLegal : global enable value : " + isLegalEnable?string("true", "no") + ", read value : " + propertiesHelper.retrieveAndDisplayConfigText("site.legal.enable"))}
 	</#if>
 	<#return isLegalEnable/>
 </#function>
 
 <#function isLegalContent theContent>
-	<#return (theContent.legalPage)?? && theContent.legalPage=="true"/>
+	<#local isLegalContent = (theContent.legalPage)?? && theContent.legalPage=="true">
+	<#if logHelper??>
+		${logHelper.stackDebugMessage("legal.isLegalContent : is page contain header for legale page : " + isLegalContent?string("true", "no"))}
+	</#if>
+	<#return isLegalContent/>
 </#function>
 
 <#macro displayLegaleLinks theContent classes="legal_menu">
@@ -75,7 +80,7 @@
 	<#if (allLegalContents?size>0)>
 		<ul class="${classes}">
 			<#list allLegalContents?sort_by("date") as legalContent>
-				<li><a href=${legalContent.uri}>${legalContent.title}</a></li>
+				<li><a href=${common.buildRootPathAwareURL(legalContent.uri)}>${legalContent.title}</a></li>
 			</#list>
 		</ul>
 	</#if>
