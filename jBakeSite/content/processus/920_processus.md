@@ -4,7 +4,6 @@ type=org_openCiLife_post
 includeContent={"type":"org_openCiLife_post", "category":"processus", "display":{"type":"card", "content":"link"}}
 category=EthikNet
 status=published
-exerpt=Processus
 specificClass=EthikNet
 contentImage=images/circular-arrow.svg
 displayDate=false
