@@ -44,6 +44,13 @@
 #preHeader .blockContent > p{
 	margin : 0px;
 }
+
+
+.projets .block img {
+	max-width: initial;
+	width: 100%;
+}
+
 #footer_blocks .block {
 	text-align:left;
 }
@@ -78,5 +85,22 @@
 	}
 	.preHeader .blockContent {
 		margin-left: 25px;
+	}
+	.compare_aside .blockBody .blockContent {
+		display:flex;
+		flex-direction:row;
+		gap:12px; 
+	}
+	.compare_aside .blockBody .blockContent .block .blockBody .blockContent{
+		display:flex;
+		flex-direction:column;
+		gap:12px 
+	}
+	.twoPerRow .blockBody .blockContent .block {
+		width:48%;
+	}
+	.twoPerRow .blockBody .blockContent .block img {
+		width:100%;
+		max-width:initial;
 	}
 }
