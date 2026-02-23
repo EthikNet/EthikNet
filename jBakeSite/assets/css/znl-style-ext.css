@@ -45,6 +45,9 @@
 	margin : 0px;
 }
 
+.card_list .card {
+	text-align:center;
+}
 
 .projets .block img {
 	max-width: initial;

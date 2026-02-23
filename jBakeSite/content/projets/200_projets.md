@@ -1,7 +1,7 @@
 title=Liste des projets
 date=2026-02-19
 type=org_openCiLife_post
-includeContent={"type":"org_openCiLife_post", "category":"projet", "display":{"type":"card", "content":"link"}}
+includeContent={"type":"org_openCiLife_post", "category":"projet", "specificClass":"threePerRow", "display":{"type":"card", "content":"link"}}
 category=EthikNet
 status=published
 specificClass=projets
