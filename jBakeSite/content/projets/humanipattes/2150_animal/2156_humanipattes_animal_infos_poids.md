@@ -6,7 +6,7 @@ status=published
 displayTitle=false
 order=2156
 ~~~~~~
-#### poids et temps de chargement
+#### Poids et temps de chargement
 | Element                   |  Ancien site    | Nouveau site   |
 | ------------------------- | --------------- | -------------- |
 | Nombre de requêtes        | 57              | 33             |
