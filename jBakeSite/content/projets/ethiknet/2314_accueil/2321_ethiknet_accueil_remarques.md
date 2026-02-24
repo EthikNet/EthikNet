@@ -8,4 +8,4 @@ order=2321
 ~~~~~~
 #### Remarques
 
-TODO
+La page à une empreinte écologique faible telle qu'attendu pour un site éco-conçu.

@@ -9,3 +9,4 @@ order=2334
 ~~~~~~
 ![Capture d'écran page d'un projet 1](${webleger.build.host}/images/projets/ethiknet/projet_humanipattes_1.jpg)
 ![Capture d'écran page d'un projet 2](${webleger.build.host}/images/projets/ethiknet/projet_humanipattes_2.jpg)
+![Capture d'écran page d'accueil 2](${webleger.build.host}/images/projets/ethiknet/projet_humanipattes_carbon_footprint.jpg)

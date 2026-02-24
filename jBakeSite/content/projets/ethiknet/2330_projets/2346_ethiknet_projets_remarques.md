@@ -8,4 +8,4 @@ order=2346
 ~~~~~~
 #### Remarques
 
-TODO
+Ce projet contient des captures d'écran avant/après ce qui augmente sensiblement le poids de la page. Ces captures permettent à un visiteur de voir l'évolution du site et sont donc utiles. Le poids de la page reste raisonnable.
