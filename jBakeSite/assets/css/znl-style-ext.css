@@ -49,6 +49,14 @@
 	text-align:center;
 }
 
+.otherProjects .title {
+	font-size: xx-large;
+	margin-left: 12px;
+	color:${webleger.site.style.primary.background.color};
+	border-top: 2px solid hsl(145, 45%, 28%);
+	border-radius: 12px;
+}
+
 .projets .block img {
 	max-width: initial;
 	width: 100%;

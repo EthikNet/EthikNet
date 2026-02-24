@@ -1,7 +1,7 @@
 title=Projet WebLeger
 date=2026-02-23
 type=org_openCiLife_post
-includeContent={"type":"org_openCiLife_post", "category":"projet", "display":{"type":"card", "content":"link"}}
+includeContent={"type":"org_openCiLife_post", "category":"projet", "specificClass":"otherProjects threePerRow", "title":"Autres projets", "display":{"type":"card", "content":"link"}}
 includeBlocks={"category":"webleger_compare_content"}
 category=projet
 status=published

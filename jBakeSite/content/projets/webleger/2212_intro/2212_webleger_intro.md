@@ -5,12 +5,12 @@ category=webleger_compare_content
 status=published
 specificClass=detail_projet
 displayTitle=false
-order=2112
+order=2212
 ~~~~~~
 ## Besoin : 
 
-- Créer un site pour présenter une produit Open Source et gratuit.
-- Produire un site éco-conçue particulièrement économique en CO2.
+- Créer un site pour présenter un produit Open Source et gratuit.
+- Produire un site éco-conçu particulièrement économique en CO2.
 
 ## Site créé
 
@@ -19,5 +19,5 @@ order=2112
 ## Actions réalisées
 
 - La page d'accueil propose une synthèse du produit.
-- Permetre aux développeur d'accèder facilement au GitHub du projet.
+- Permettre aux développeurs d'accéder facilement au GitHub du projet.
 - Mettre à disposition (et structurer) la documentation.
