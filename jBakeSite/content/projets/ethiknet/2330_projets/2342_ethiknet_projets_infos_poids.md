@@ -9,9 +9,9 @@ order=2342
 #### poids et temps de chargement
 | Element                   |  Nouveau site   |
 | ------------------------- | --------------- |
-| Nombre de requêtes        | TODO              |
-| Poids (total)             | TODO       |
-| Poids (transféré)         | TODO        |
-| Temps de chargement       | TODO          |
-| Temps de chargement (DOM) | TODO          |
-| Temps de chargement       | TODO         |
+| Nombre de requêtes        | 25              |
+| Poids (total)             | 1 MO            |
+| Poids (transféré)         | 820.20 Ko       |
+| Temps de chargement       | 452 ms          |
+| Temps de chargement (DOM) | 200 ms          |
+| Temps de chargement       | 280 ms          |

@@ -8,7 +8,7 @@ status=published
 specificClass=projets
 contentImage=images/common/logo_left.svg
 displayDate=true
-menu={"parent":{"title":"projets"}}
+menu={"parent":{"title":"Projets"}}
 exerpt=Présenter un service (agence Web)
 order=2310
 ~~~~~~

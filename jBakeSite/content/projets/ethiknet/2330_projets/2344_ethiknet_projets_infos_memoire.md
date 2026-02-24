@@ -9,8 +9,8 @@ order=2344
 #### Mémoire (navigateur)
 | Element                   |  Nouveau site   |
 | ------------------------- | --------------- |
-| String                    | TODO         |
-| Other                     | TODO         |
-| Scripts                   | TODO         |
-| Objects                   | TODO         |
-| domNode                   | TODO           |
+| String                    | 131 KiB         |
+| Other                     | 203 KiB         |
+| Scripts                   | 261 KiB         |
+| Objects                   | 479 KiB         |
+| domNode                   | 2 MiB           |
