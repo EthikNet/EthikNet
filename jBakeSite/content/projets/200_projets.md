@@ -7,7 +7,7 @@ status=published
 specificClass=projets
 contentImage=images/circular-arrow.svg
 displayDate=false
-menu={"parent":{"title":"projets"}}
+menu={"parent":{"title":"Projets"}}
 exerpt=Les projets réalisés
 order=200
 ~~~~~~
