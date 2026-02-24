@@ -13,4 +13,4 @@ order=200
 ~~~~~~
 ## Quelques exemples de projets réalisé par EthikNet.
 
-Retrouvez les projets réalisé par EthikNet : l'objectif initial, le type de site, les outils utilisés, les gains écologiques réalisées.
+Retrouvez les projets réalisés par EthikNet : l'objectif initial, le type de site, les outils utilisés, les gains écologiques réalisés.
