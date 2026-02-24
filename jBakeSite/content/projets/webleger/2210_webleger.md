@@ -8,7 +8,7 @@ status=published
 specificClass=projets
 contentImage=images/projets/webleger/webleger_logo_full.svg
 displayDate=true
-menu={"parent":{"title":"projets"}}
+menu={"parent":{"title":"Projets"}}
 exerpt=Project Open Source (création de site Web)
 order=2210
 ~~~~~~
