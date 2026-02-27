@@ -7,7 +7,7 @@
 </#function>
 
 <#macro buildLegal theContent cssClass="legal">
-	<#if isEnableLegal() && isLegalContent(theContent)>
+	<#if isEnableLegal() && (theContent.legalPage)?? && theContent.legalPage=="true">
 		<div<#if (cssClass)??> class="${cssClass}</#if>">
 			<div class="legal_identity">
 				<h3>Identitée</h3>
