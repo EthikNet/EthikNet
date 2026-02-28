@@ -2650,7 +2650,7 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-default .badge {
-	color: ${webleger.site.style.primary.color}
+	color: ${webleger.site.style.primary.color};
 	background-color: ${webleger.site.style.primary.background.color}
 }
 
@@ -3885,7 +3885,7 @@ input[type=button].btn-block {
 	list-style: none;
 	font-size: 14px;
 	background-color: ${webleger.site.style.background.color};
-	color:${webleger.site.style.color}
+	color:${webleger.site.style.color};
 	border: 1px solid #ccc;
 	border: 1px solid rgba(0, 0, 0, .15);
 	border-radius: 4px;
@@ -7269,7 +7269,7 @@ button.close {
 .primary .dropdown-menu>.active>a,
 .primary .dropdown-menu>.active>a:hover,
 .primary .dropdown-menu>.active>a:focus {
-	color: ${webleger.site.color};
+	color: ${webleger.site.style.color};
 	background-color: ${webleger.site.style.background.color}
 }
 .primary .dropdown-menu>.disabled>a,
@@ -7353,7 +7353,7 @@ button.close {
 }
 
 .primary .btn-default .badge {
-	color: ${webleger.site.style.color}
+	color: ${webleger.site.style.color};
 	background-color: ${webleger.site.style.background.color}
 }
 
@@ -7446,7 +7446,7 @@ button.close {
 .secondary .dropdown-menu>.active>a,
 .secondary .dropdown-menu>.active>a:hover,
 .secondary .dropdown-menu>.active>a:focus {
-	color: ${webleger.site.color};
+	color: ${webleger.site.style.color};
 	background-color: ${webleger.site.style.background.color}
 }
 .secondary .dropdown-menu>.disabled>a,
@@ -7525,7 +7525,7 @@ button.close {
 }
 
 .secondary .btn-default .badge {
-	color: ${webleger.site.style.color}
+	color: ${webleger.site.style.color};
 	background-color: ${webleger.site.style.background.color}
 }
 
