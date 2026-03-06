@@ -1,8 +1,23 @@
 <#function getComponnentInfo>
-	<#return {"componnentVersion":1, "name":"langHelper", "description":"Helper for multi-language", "recommandedNamespace":"langHelper", "version":"0.2.0", "require":[{"value":"sequenceHelper", "type":"lib"}, {"value":"propertiesHelper", "type":"lib"}, {"value":"lang", "type":"contentHeader"}, {"value":"languageSwitcher", "type":"contentHeader"}]}>
+	<#return {"componnentVersion":2, "name":"langHelper", "description":"Helper for multi-language", "recommandedNamespace":"langHelper", "version":"0.2.0", "require":[{"value":"sequenceHelper", "type":"lib"}, {"value":"propertiesHelper", "type":"lib"}, {"value":"lang", "type":"contentHeader"}, {"value":"languageSwitcher", "type":"contentHeader"}]}>
 </#function>
 
 <#function init>
+	<#return "" />
+</#function>
+
+<#function registerDefaultHooks()>
+	<#local registerComponnentHooks = true>
+	<#if registerComponnentHooks>
+		${hookHelper.registerHook("afterBlockBody", "langHelper.build", false)}
+	</#if>
+</#function>
+
+<#function addHeaderScripts()>
+	<#return "" />
+</#function>
+
+<#function addFooterScripts()>
 	<#return "" />
 </#function>
 

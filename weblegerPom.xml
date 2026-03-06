@@ -140,17 +140,20 @@
 						</resourcesSets>
 					</configuration>
 				</plugin>
-				<!-- Clean and (re) create output folder -->
+				<!-- Clean and (re) create input/output folder -->
 				<plugin>
 					<artifactId>maven-antrun-plugin</artifactId>
 					<version>1.8</version>
 					<executions>
 						<execution>
 							<id>clean-output-folder</id>
-							<!-- enable "run" to be launch before "install" phase -->
-							<phase>initialize</phase>
+							<!-- enable "run" to be launch before "mvn copy files" -->
+							<phase>clean</phase>
+							<goals>
+								<goal>run</goal>
+							</goals>
 							<configuration>
-								<tasks>
+								<target>
 									<delete dir="${jbake.inputDirectory}"
 										failonerror="false" />
 									<mkdir dir="${jbake.inputDirectory}" />
@@ -158,7 +161,7 @@
 										failonerror="false" />
 									<mkdir dir="${jbake.outputDirectory}" />
 
-									<!-- to copy ressoruces from components to assets -->
+									<!-- to copy ressources from components to assets -->
 									<mkdir dir="${jbake.inputDirectory}/assets/static" />
 									<copy todir="${jbake.inputDirectory}/assets">
 										<fileset dir="${src.dir}"
@@ -167,11 +170,8 @@
 
 									<!-- compressed CSS and JS will go here -->
 									<mkdir dir="${jbake.outputDirectory}/static" />
-								</tasks>
+								</target>
 							</configuration>
-							<goals>
-								<goal>run</goal>
-							</goals>
 						</execution>
 					</executions>
 				</plugin>
