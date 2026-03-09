@@ -25,7 +25,7 @@
     @param content The content.
 -->
 <#function getLang content>
-	<#local contentLang = "fr_FR">
+	<#local contentLang = "fr-FR">
 	
 	<#if (config.site_langs_default)??>
 		<#local contentLang = config.site_langs_default>

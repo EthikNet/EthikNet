@@ -5,7 +5,7 @@ includeContent={"type":"org_openCiLife_post", "category":"article", "display":{"
 category=global
 status=draft
 displayDate=false
-lang=fr_FR
+lang=fr-FR
 order=100
 ~~~~~~
 Notre R&D vous livre ses tutos et bonnes pratiques.
