@@ -143,7 +143,7 @@
 				<!-- Clean and (re) create input/output folder -->
 				<plugin>
 					<artifactId>maven-antrun-plugin</artifactId>
-					<version>1.8</version>
+					<version>3.2.0</version>
 					<executions>
 						<execution>
 							<id>clean-output-folder</id>
@@ -154,6 +154,7 @@
 							</goals>
 							<configuration>
 								<target>
+									<echo message="Cleaning main structure" />
 									<delete dir="${jbake.inputDirectory}"
 										failonerror="false" />
 									<mkdir dir="${jbake.inputDirectory}" />
@@ -161,19 +162,95 @@
 										failonerror="false" />
 									<mkdir dir="${jbake.outputDirectory}" />
 
-									<!-- to copy ressources from components to assets -->
+									<echo
+										message="Copying ressources from components to assets" />
 									<mkdir dir="${jbake.inputDirectory}/assets/static" />
 									<copy todir="${jbake.inputDirectory}/assets">
 										<fileset dir="${src.dir}"
 											includes="**/copyToAssets/**" />
 									</copy>
 
-									<!-- compressed CSS and JS will go here -->
+									<echo message="Prepare folder for cmpressed CSS and JS" />
 									<mkdir dir="${jbake.outputDirectory}/static" />
 								</target>
 							</configuration>
 						</execution>
+
+						<execution>
+							<!-- launched AFTER Maven copy (and filter) files -->
+							<id>clean-inputDir-remove-useless-files</id>
+							<phase>compile</phase>
+							<goals>
+								<goal>run</goal>
+							</goals>
+							<configuration>
+								<target>
+									<taskdef resource="net/sf/antcontrib/antlib.xml"
+										classpathref="maven.plugin.classpath" />
+
+									<property file="WebLeger-build.properties" prefix="WL" />
+
+									<echo
+										message="Deleting uselss files from webleger.remove.component.files" />
+									<delete failonerror="false" verbose="true">
+										<fileset dir="${jbake.inputDirectory}"
+											includes="${WL.webleger.remove.component.files}" />
+									</delete>
+
+									<echo message="Deleting uselss directories from webleger.remove.component.dirs : ${WL.webleger.remove.component.dirs}" />
+									
+									 <for param="folder">
+										<path>
+											<dirset dir="${jbake.inputDirectory}" includes="${WL.webleger.remove.component.dirs}" />
+										</path>
+										<sequential>
+											<delete dir="@{folder}" failonerror="true"
+												verbose="true" />
+										</sequential>
+									</for>
+								</target>
+							</configuration>
+						</execution>
+						<execution>
+							<!-- Launch AFTER JBake execution -->
+							<id>clean-jbake-website-folder</id>
+							<phase>package</phase>
+							<goals>
+								<goal>run</goal>
+							</goals>
+							<configuration>
+								<target>
+									<echo message="Deleting useless block html content" />
+									<delete failonerror="false" verbose="true"
+										includeemptydirs="true">
+										<fileset dir="${jbake.outputDirectory}"
+											includes="**/*.html" defaultexcludes="no">
+											<contains text="__!!NoContent!!__" />
+										</fileset>
+									</delete>
+
+									<echo message="Deleting empty folder" />
+									<delete failonerror="false" verbose="true"
+										includeemptydirs="true">
+										<dirset dir="${jbake.outputDirectory}" />
+									</delete>
+								</target>
+							</configuration>
+						</execution>
 					</executions>
+					<dependencies>
+						<dependency>
+							<groupId>ant-contrib</groupId>
+							<artifactId>ant-contrib</artifactId>
+							<version>1.0b3</version>
+							<exclusions>
+								<exclusion>
+									<groupId>ant</groupId>
+									<artifactId>ant</artifactId>
+								</exclusion>
+							</exclusions>
+						</dependency>
+					</dependencies>
 				</plugin>
 				<plugin>
 					<artifactId>maven-resources-plugin</artifactId>
