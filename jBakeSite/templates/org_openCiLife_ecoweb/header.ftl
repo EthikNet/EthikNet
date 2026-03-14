@@ -29,7 +29,7 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="${common.getCanonicalUrl()}" />
 	<#if (content.contentImage)??>
-		<meta property="og:image" content="${common.buildRootPathAwareURL(content.contentImage)}" />
+		<meta property="og:image" content="${common.buildAbsoluteURL(content.contentImage)}" />
 	<#else>
 		<meta property="og:image" content="${common.buildRootPathAwareURL(propertiesHelper.retrieveAndDisplayConfigText("site.logoLeft.file"))}" />
 	</#if>

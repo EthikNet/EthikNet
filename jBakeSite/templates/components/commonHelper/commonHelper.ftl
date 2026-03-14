@@ -20,6 +20,16 @@ return : URL prepend with rootPath (if configured)
 	<#return rootPathAwareURL>
 </#function>
 
+<#function buildAbsoluteURL relativeUrl>
+	<#assign absoluteURL = relativeUrl>
+	
+	<#if (content.rootpath)??>
+		<#assign absoluteURL = "${webleger.build.host.prefered.protocol}://${webleger.build.host}/"+relativeUrl>
+	</#if>
+	
+	<#return absoluteURL>
+</#function>
+
 <#-- search for absolute URL in content and preprend the RootPath
 param : text : the teh text to search for relative URL
 param : rootPath : default ${content.rootpath} : the rootPath of teh webSite
