@@ -14,6 +14,9 @@
     <meta name="author" content="${propertiesHelper.retrieveAndDisplayConfigText("site.header.author")}">
     <meta name="keywords" content="${ecoWeb.retrieveMetaKeyWord(content)}">
     <meta name="generator" content="JBake">
+    <#if (content.uri)??>
+    	<link rel="canonical" href="${webleger.build.host.prefered.protocol}://${webleger.build.host}/${content.uri}" />
+    </#if>
     <#if content.type == "org_openCiLife_block" || ((content.status)?? && content.status == "draft")>
     	<meta name="robots" content="noindex, nofollow" />
     <#else>
