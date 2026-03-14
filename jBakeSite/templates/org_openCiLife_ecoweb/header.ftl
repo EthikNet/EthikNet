@@ -40,6 +40,8 @@
 	</#if>
 	<meta name="og:locale" content="<#if (langHelper)??>${langHelper.getLangForHtmlHeader(content)}<#elseif (config.site_langs_default)??>${config.site_langs_default}<#else>fr</#if>">
 	<meta name="og:site_name " content="${propertiesHelper.retrieveAndDisplayConfigText("site.header.title")}">
+	
+	<meta name="twitter:card" content="summary_large_image">
     
     <#if ressourcesHelper??>
     	<@ressourcesHelper.buildExternalInjectionHeader config.site_script_header />
