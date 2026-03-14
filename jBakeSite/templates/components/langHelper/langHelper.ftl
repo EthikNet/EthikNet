@@ -92,5 +92,9 @@
 				</ul>
 			</#if>
 		</#if>
+	<#else>
+		<#if logHelper??>
+			<@logHelper.debug "No languageSwitcher for this content"/>
+		</#if>
 	</#if>
 </#macro>
