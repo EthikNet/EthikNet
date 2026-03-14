@@ -33,7 +33,11 @@
 	<#else>
 		<meta property="og:image" content="${common.buildRootPathAwareURL(propertiesHelper.retrieveAndDisplayConfigText("site.logoLeft.file"))}" />
 	</#if>
-	<meta name="og:description" content="${ecoWeb.retrieveMetaDescription(content)}">
+	<#if (content.excerpt)??>
+		<meta name="og:description" content="${content.excerpt}">
+	<#else>
+		<meta name="og:description" content="${ecoWeb.retrieveMetaDescription(content)}">
+	</#if>
 	<meta name="og:locale" content="<#if (langHelper)??>${langHelper.getLangForHtmlHeader(content)}<#elseif (config.site_langs_default)??>${config.site_langs_default}<#else>fr</#if>">
 	<meta name="og:site_name " content="${propertiesHelper.retrieveAndDisplayConfigText("site.header.title")}">
     
