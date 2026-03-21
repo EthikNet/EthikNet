@@ -1,5 +1,5 @@
 <#function getComponnentInfo>
-	<#return {"componnentVersion":2, "name":"calendar", "description":"Display calendar", "version":"0.0.1", "recommandedNamespace":"calendar", "uses":[{"value":"logHelper", "type":"lib"}]}>
+	<#return {"componnentVersion":2, "name":"calendar", "description":"Display calendar", "version":"0.0.1", "recommandedNamespace":"calendar", "require":[{"value":"commonHelper", "type":"lib"}], "uses":[{"value":"logHelper", "type":"lib"}]}>
 </#function>
 
 <#function init>
