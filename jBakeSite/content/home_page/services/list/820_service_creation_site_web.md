@@ -9,7 +9,7 @@ order=820
 ~~~~~~
 Sites web sur mesure, éco-conçus avec WebLeger. Rapides, légers et optimisés pour vos clients.
 
-- Site adapté mobile/table/ordinateur
+- Site adapté mobile/tablette/ordinateur
 - Pensé pour les mobiles
 - Référencement moteur de recherche optimisé
 - Pages ultra-rapides
