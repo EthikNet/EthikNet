@@ -8,4 +8,4 @@ order=2117
 ~~~~~~
 #### Nouvelle
 ![Capture d'écran nouvelle page d'accueil 1](${webleger.build.host}/images/projets/humanipattes/Humanipattes_nouveau_HomePage_1.jpg)
-![Capture d'écran nNouvelle page d'accueil 2](${webleger.build.host}/images/projets/humanipattes/Humanipattes_nouveau_HomePage_2.jpg)
+![Capture d'écran nouvelle page d'accueil 2](${webleger.build.host}/images/projets/humanipattes/Humanipattes_nouveau_HomePage_2.jpg)
