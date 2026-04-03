@@ -24,7 +24,7 @@ return : URL prepend with rootPath (if configured)
 	<#assign absoluteURL = relativeUrl>
 	
 	<#if (content.rootpath)??>
-		<#assign absoluteURL = "${webleger.build.host.prefered.protocol}://${webleger.build.host}/"+relativeUrl>
+		<#assign absoluteURL = "${webleger.build.host}/"+relativeUrl>
 	</#if>
 	
 	<#return absoluteURL>
@@ -203,7 +203,7 @@ param : theObject : object to transform in String
 <#function getCanonicalUrl>
 	<#local canonicalUri="" />
 	<#if (content.uri)??>
-		<#local canonicalUri="${webleger.build.host.prefered.protocol}://${webleger.build.host}/${content.uri}" />
+		<#local canonicalUri="${webleger.build.host}/${content.uri}" />
 	</#if>
 	<#return canonicalUri>
 </#function>
