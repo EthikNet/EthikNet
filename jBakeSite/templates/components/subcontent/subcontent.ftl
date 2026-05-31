@@ -228,7 +228,7 @@ param : content : content to search for include content
 											
 											<#if contentAtttrName=="title">
 												<#if (subContentBeforeTitleImage?has_content)>
-													<img src="${common.buildRootPathAwareURL(subContentBeforeTitleImage)}" class="widget_title_image icon"/>
+													<img src="${common.buildRootPathAwareURL(subContentBeforeTitleImage)}" class="widget_title_image icon">
 												</#if>
 											</#if>
 											<#if (contentAtttrValue?is_date)>
@@ -290,7 +290,7 @@ param : content : content to search for include content
 							<#if displayTitle>						
 								<h3 class="${listDisplayType}_title"><#rt>
 								<#if (subContentBeforeTitleImage?has_content)>
-									<img src="${common.buildRootPathAwareURL(subContentBeforeTitleImage)}" class="widget_title_image icon"/>
+									<img src="${common.buildRootPathAwareURL(subContentBeforeTitleImage)}" class="widget_title_image icon">
 								</#if>
 									<#t>${altSubContent.title!""}
 								<#lt></h3>
@@ -349,7 +349,7 @@ param : content : content to search for include content
 						<#if displayTitle>						
 							<h3 class="${listDisplayType}_title"><#rt>
 							<#if (subContentBeforeTitleImage?has_content)>
-								<img src="${common.buildRootPathAwareURL(subContentBeforeTitleImage)}" class="widget_title_image icon"/>
+								<img src="${common.buildRootPathAwareURL(subContentBeforeTitleImage)}" class="widget_title_image icon">
 							</#if>
 								<#t>${altSubContent.title!""}
 							<#lt></h3>
@@ -498,7 +498,7 @@ param : content : content to search for include content
 							<#if displayTitle>						
 								<h3 class="${className}_title"><#rt>
 								<#if (subContentBeforeTitleImage?has_content)>
-									<img src="${common.buildRootPathAwareURL(subContentBeforeTitleImage)}" class="widget_title_image icon"/>
+									<img src="${common.buildRootPathAwareURL(subContentBeforeTitleImage)}" class="widget_title_image icon">
 								</#if>
 									<#t>${altSubContent.title!""}
 								<#lt></h3>
