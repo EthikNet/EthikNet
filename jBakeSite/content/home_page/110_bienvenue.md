@@ -11,4 +11,4 @@ order=110
 ~~~~~~
 **Bienvenue**
 
-Site en *construction*
+Ce site est en *construction*
